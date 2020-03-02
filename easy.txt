@@ -1,3 +1,4 @@
 Monte Carlo Integration - Easy
+Compile and run volesti. Read the CRAN package documentation, generate a random H-polytope and compute its volume.
 
-dimension=5 facets=10 volume=28246322.1977478
+dimension = 5 facets = 10 volume = 28246322.1977478

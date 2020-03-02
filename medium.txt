@@ -1,5 +1,5 @@
-
-
+Monte Carlo Integration - Medium
+Use the R package cubature to compute the integral of f(x) = exp^{-a||x||^2} over the cube [-1,1]^n, for various values of a and dimension n until it crashes.
 
 a =  1 n =  1 integral =  1.49364826562485 
 a =  1 n =  2 integral =  2.23098597723276 
@@ -9,15 +9,11 @@ a =  1 n =  5 integral =  7.43432788423128
 a =  1 n =  6 integral =  11.1042701941834 
 a =  1 n =  7 integral =  16.5858729217582 
 
-
-
 a =  10 n =  1 integral =  0.560494781013251 
 a =  10 n =  2 integral =  0.314154359831757 
 a =  10 n =  3 integral =  0.176081836396146 
 a =  10 n =  4 integral =  0.0986929748344707 
 a =  10 n =  5 integral =  0.0553169055783773 
-
-
 
 a =  15 n =  1 integral =  0.457645596659475 
 a =  15 n =  2 integral =  0.209439550856614 
