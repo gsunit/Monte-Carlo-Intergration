@@ -1,0 +1,69 @@
+with a=1, n=1
+sample points=1000 
+a =  1 n =  1 integral =  1.49364826562485 using cubature package
+a =  1 n =  1 integral =  1.52703051531771 using volesti with uniform sampling
+a =  1 n =  1 integral =  1.48488608786368 using volesti with importance sampling
+percentage error: 0.02% with uniform sampling
+percentage error: 0.01% with importance sampling
+
+sample points =  10000 
+a =  1 n =  1 integral =  1.49364826562485 using cubature package
+a =  1 n =  1 integral =  1.49836658165272 using volesti with uniform sampling
+a =  1 n =  1 integral =  1.4993750211883 using volesti with importance sampling
+percentage error: 0.00% with uniform sampling
+percentage error: 0.00% with importance sampling
+
+sample points =  1e+05 
+a =  1 n =  1 integral =  1.49364826562485 using cubature package
+a =  1 n =  1 integral =  1.49882221212083 using volesti with uniform sampling
+a =  1 n =  1 integral =  1.49157312238495 using volesti with importance sampling
+percentage error: 0.00% with uniform sampling
+percentage error: 0.00% with importance sampling
+
+
+
+with a=10, n=1
+sample points =  1000 
+a =  10 n =  1 integral =  0.560494781013251 using cubature package
+a =  10 n =  1 integral =  0.548514056377465 using volesti with uniform sampling
+a =  10 n =  1 integral =  0.561358450733328 using volesti with importance sampling
+percentage error: 0.02% with uniform sampling
+percentage error: 0.00% with importance sampling
+
+sample points =  10000 
+a =  10 n =  1 integral =  0.560494781013251 using cubature package
+a =  10 n =  1 integral =  0.574214045233259 using volesti with uniform sampling
+a =  10 n =  1 integral =  0.560005521885937 using volesti with importance sampling
+percentage error: 0.02% with uniform sampling
+percentage error: 0.00% with importance sampling
+
+sample points =  1e+05 
+a =  10 n =  1 integral =  0.560494781013251 using cubature package
+a =  10 n =  1 integral =  0.562895145912604 using volesti with uniform sampling
+a =  10 n =  1 integral =  0.555144627062593 using volesti with importance sampling
+percentage error: 0.00% with uniform sampling
+percentage error: 0.01% with importance sampling
+
+
+
+with a=10, n=4
+sample points =  1000 
+a =  10 n =  4 integral =  0.0986929748344707 using cubature package
+a =  10 n =  4 integral =  0.0568096980143045 using volesti with uniform sampling
+a =  10 n =  4 integral =  0.104403718723886 using volesti with importance sampling
+percentage error: 0.42% with uniform sampling
+percentage error: 0.06% with importance sampling
+
+sample points =  10000 
+a =  10 n =  4 integral =  0.0986929748344707 using cubature package
+a =  10 n =  4 integral =  0.0956670911489143 using volesti with uniform sampling
+a =  10 n =  4 integral =  0.0965407943152174 using volesti with importance sampling
+percentage error: 0.03% with uniform sampling
+percentage error: 0.02% with importance sampling
+
+sample points =  1e+05 
+a =  10 n =  4 integral =  0.0986929748344707 using cubature package
+a =  10 n =  4 integral =  0.0969419852717064 using volesti with uniform sampling
+a =  10 n =  4 integral =  0.0943954740359523 using volesti with importance sampling
+percentage error: 0.02% with uniform sampling
+percentage error: 0.04% with importance sampling
